@@ -1,0 +1,37 @@
+input[type="text"], input[type="submit"], .button {
+  -webkit-border-radius: 7px;
+  border-radius: 7px;
+}
+
+.hs-form.stacked .field{
+    margin-bottom: 0px !important;
+}
+.hs-form {
+  label {
+    color: $ips-white !important;
+  }
+  .hs-button {
+    background-color: $ips-green !important;
+    background-image: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    width: 40% !important;
+    height: 20px !important;
+    margin: 0 auto !important;
+    display: block !important;
+    &:hover {
+      cursor: pointer !important;
+      background-color: $ips-grey !important;
+    }
+  }
+}
+
+.actions {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  margin-top: 0px !important;
+   border: none !important;
+  &:hover {
+    cursor: pointer !important;
+  }
+}

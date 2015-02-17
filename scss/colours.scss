@@ -5,3 +5,30 @@
 $ips-green: #d2e214;
 $ips-blue:  #0379ae;
 $ips-grey:  #5d676b;
+$ips-white: #FFF;
+$ips-black: #000;
+
+$ips-colours-list:
+  "green"  $ips-green,
+  "blue"    $ips-blue,
+  "grey"    $ips-grey,
+  "white"   $ips-white,
+  "black"   $ips-black;
+
+@each $i in $ips-colours-list {
+  .ips-#{nth($i,1)} {
+    color: #{nth($i,2)} !important;
+  }
+  .ips-background-#{nth($i,1)} {
+    background-color: #{nth($i,2)};
+    &.opacity-25 {
+      background-color: #{rgba(nth($i,2), 0.25)};
+    }
+    &.opacity-50 {
+      background-color: #{rgba(nth($i,2), 0.5)};
+    }
+    &.opacity-75 {
+      background-color: #{rgba(nth($i,2), 0.75)};
+    }
+  }
+}

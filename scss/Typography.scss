@@ -21,3 +21,23 @@
 .h6 {
   font-size: $h6-font-size !important;
 }
+
+.text-upper-case {
+  text-transform: uppercase;
+}
+
+dd, dt {
+  color: white;
+}
+
+.list-style-none {
+  list-style-type: none;
+}
+
+.ul-stick-bottom {
+  margin: 1.25rem 0px 0px;
+}
+
+.heading-line-height {
+  line-height: 1.2em;
+}
