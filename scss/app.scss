@@ -1,6 +1,17 @@
 @import "settings";
 @import "foundation";
 
+// general sass
+@import "functions.scss";
+@import "structure.scss";
+@import "typography.scss";
+@import "colours.scss";
+// app specific sass
+@import "blue-background-box.scss";
+@import "navigation-links.scss";
+@import "brand-links.scss";
+@import "social-links.scss";
+
 // Or selectively include components
 // @import
 //   "foundation/components/accordion",
