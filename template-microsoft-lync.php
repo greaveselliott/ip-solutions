@@ -2,7 +2,8 @@
 /*
 * Template Name: Microsoft Lync
 */
-$rootDir = 'http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solutions/'
+//$rootDir = '';
+$rootDir = 'http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solutions/';
 ?>
 <!doctype html>
 <html class="no-js" lang="en">
@@ -14,15 +15,23 @@ $rootDir = 'http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solut
     <script src="<?php echo $rootDir; ?>bower_components/modernizr/modernizr.js"></script>
   </head>
   <body>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.0";
+          fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
     <!-- header / nav -->
     <header class="row full-screen">
         <div class="large-12 columns">
             <!-- header -->
             <div class="left">
                 <div id="logos" class="padding-top-10 margin-bottom-10">
-                    <img src="images/ipsolutionslogo.jpg">
-                    <img src="images/lync_logo_1.jpg">
-                    <img src="images/microsoft-logo.png">
+                    <img src="<?php echo $rootDir; ?>images/ipsolutionslogo.jpg">
+                    <img src="<?php echo $rootDir; ?>images/lync_logo_1.jpg">
+                    <img src="<?php echo $rootDir; ?>images/microsoft-logo.png">
                 </div>
             </div>
             <!-- nav -->

@@ -1,7 +1,7 @@
 <?php
     /*
      *
-     * Template Name: Microsoft Lync - Thank You
+     * Template Name: Microsoft Lync - Thank you
     */
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
@@ -792,6 +792,14 @@ body.outlook p {
 </style>
 </head>
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.0";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 <table class="body">
     <tr>
         <td class="center" align="center" valign="top">
@@ -905,29 +913,24 @@ body.outlook p {
                                         <table class="twelve columns">
                                             <tr>
                                                 <td class="one sub-columns"></td>
-                                                <td class="five sub-columns">
-                                                    <h5>Connect With Us:</h5>
+                                                <td class="seven sub-columns">
+                                                    <h5>Share with your friends</h5>
 
                                                 </td>
-                                                <td class="two sub-columns">
-                                                    <table class="tiny-button twitter">
-                                                        <tr>
-                                                            <td>
-                                                                <a href="https://twitter.com/ipsolutionsuk">Twitter</a>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
+                                                <td class="one sub-columns">
+                                                    <a class="twitter-share-button"
+                                                       href="https://twitter.com/share&text=Just signed for for microsoft seminar">
+                                                        Tweet
+                                                    </a>
                                                 </td>
-                                                <td class="two sub-columns">
-                                                    <table class="tiny-button linkedIn">
-                                                        <tr>
-                                                            <td>
-                                                                <a href="https://www.linkedin.com/company/ip-solutions-uk-ltd">Linked-in</a>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
+                                                <td class="one sub-columns">
+                                                    <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+                                                    <script type="IN/Share" data-url="http://www.ipsolutions.co.uk/microsoft-lync/" data-counter="right"></script>
                                                 </td>
-                                                <td class="one sub-columns last"></td>
+                                                <td class="one sub-columns">
+                                                    <div class="fb-share-button" data-href="http://www.ipsolutions.co.uk/microsoft-lync/" data-layout="button_count"></div>
+                                                </td>
+                                                <div class="one sub-columns last"></div>
                                                 <td class="expander"></td>
                                             </tr>
                                         </table>
@@ -969,5 +972,8 @@ body.outlook p {
         </td>
     </tr>
 </table>
+<script>
+    window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));
+</script>
 </body>
 </html>
