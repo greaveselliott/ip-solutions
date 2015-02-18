@@ -15,10 +15,12 @@ input[type="text"], input[type="submit"], .button {
     background-image: none !important;
     box-shadow: none !important;
     text-shadow: none !important;
-    width: 40% !important;
-    height: 20px !important;
+    width: 60% !important;
+    height: 30px !important;
     margin: 0 auto !important;
     display: block !important;
+
+    font-size: 1.5em !important;
     &:hover {
       cursor: pointer !important;
       background-color: $ips-grey !important;

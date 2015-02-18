@@ -2,12 +2,28 @@
   font-size: $h1-font-size !important;
 }
 
+/*
+$h1-font-size: rem-calc(44);
+$h2-font-size: rem-calc(37);
+$h3-font-size: rem-calc(27);
+$h4-font-size: rem-calc(23);
+$h5-font-size: rem-calc(18);
+$h6-font-size: 1rem;
+*/
 .h2 {
   font-size: $h2-font-size !important;
 }
 
+.h2_5 {
+  font-size: $h2_5-font-size !important;
+}
+
 .h3 {
   font-size: $h3-font-size !important;
+}
+
+.h3-5 {
+
 }
 
 .h4 {

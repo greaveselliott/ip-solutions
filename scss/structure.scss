@@ -93,6 +93,12 @@
 .padding-top-10 {
  padding-top: 10px;
 }
+.padding-top-20 {
+  padding-top: 20px;
+}
+.padding-top-30 {
+  padding-top: 30px;
+}
 .padding-10 {
   padding: 10px;
 }
@@ -118,6 +124,12 @@
   margin-bottom: 50px;
 }
 
+.margin-bottom-35 {
+  margin-bottom: 35px;
+}
+.padding-top-5 {
+  padding-top: 5px !important;
+}
 .large-min-height-320 {
   @include respond-to(large-up){min-height: 320px;}
 }

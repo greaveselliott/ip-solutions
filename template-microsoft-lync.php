@@ -51,23 +51,23 @@ $rootDir = 'http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solut
         - background image -->
     <section class="full-screen padding-60-75">
         <div class="row">
-            <div class="large-6 columns large-centered margin-bottom-50">
-                <h2 class="text-center ips-white">Ever wondered how to voice enable Office 365?</h2>
+            <div class="large-12 columns large-centered">
+                <h2 class="text-center ips-green h1">Ever wondered how to voice enable Office 365?</h2>
             </div>
         </div>
         <div class="row">
             <div class="large-10 columns large-centered">
                 <!-- FORM START -->
                 <div class="row ips-background-box ips-background-blue" id="sign-up-form">
+                    <div class="row"><div class="large-12 columns"><h3 class="ips-white padding-bottom-10 h1 text-center">Sign up</h3></div></div>
                     <!-- Title -->
                     <div class="large-6 columns">
-                        <h2 class="ips-white heading-line-height">Join us on at Microsoft in London on the 1st April to find out how you can maximise Office 365 functionality</h2>
+                        <h3 class="ips-white heading-line-height h3 padding-top-30">Join us at Microsoft in London on the 1st April to find out how you can maximise Office 365 functionality</h3>
                         <hr>
-                        <h4 class="ips-white">Without voice enabling Office 365 you could be losing more than 20% functionality.</h4>
+                        <h4 class="ips-white h5">Without voice enabling Office 365 you could be losing more than 20% functionality.</h4>
                     </div>
                     <!-- Sign up -->
                     <div class="large-6 columns">
-                        <h3 class="ips-white padding-bottom-10">Sign up</h3>
                         <script charset="utf-8" src="//js.hsforms.net/forms/current.js"></script>
                         <script>
                             hbspt.forms.create({
@@ -107,37 +107,37 @@ $rootDir = 'http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solut
     <section class="full-screen padding-60-75 padding-top-0">
         <div class="row">
             <div class="large-7 columns large-centered">
-                <h2 class="text-upper-case text-center ips-white">Agenda</h2>
+                <h2 class="text-upper-case text-center ips-green">Agenda</h2>
                 <table>
                     <tr>
-                        <td class="text-bold">9:30am</td><td>Breakfast, refreshments and networking</td>
+                        <td class="text-bold ips-green">9:30am</td><td>Breakfast, refreshments and networking</td>
                     </tr>
                     <tr>
-                        <td class="text-bold">10:00am</td><td>Welcome and housekeeping – IP Solutions Raza Baloch & Andy Lindsell (leading into…)</td>
+                        <td class="text-bold ips-green">10:00am</td><td>Welcome and housekeeping</td>
                     </tr>
                     <tr>
-                        <td class="text-bold">10:10am</td><td>IP Solutions Cloud Strategy – Raza Baloch & Andy Lindsell</td>
+                        <td class="text-bold ips-green">10:10am</td><td>IP Solutions Cloud Strategy</td>
                     </tr>
                     <tr>
-                        <td class="text-bold">10:40am</td><td>The benefits of voice-enabling O365 – ( and a nod to Skype for Business ) Damon Crawford</td>
+                        <td class="text-bold ips-green">10:40am</td><td>The benefits of voice-enabling O365</td>
                     </tr>
                     <tr>
-                        <td class="text-bold">11:00am</td><td>Comfort break</td>
+                        <td class="text-bold ips-green">11:00am</td><td>Comfort break</td>
                     </tr>
                     <tr>
-                        <td class="text-bold">11:20am</td><td>Why Cloud and How to Get There – Vicky Ryder & IP Solutions</td>
+                        <td class="text-bold ips-green">11:20am</td><td>Why Cloud and How to Get There</td>
                     </tr>
                     <tr>
-                        <td class="text-bold">11:40am</td><td>The Subscription Economy: Capex versus Opex – VR & IP Solutions</td>
+                        <td class="text-bold ips-green">11:40am</td><td>The Subscription Economy: Capex versus Opex – VR & IP Solutions</td>
                     </tr>
                     <tr>
-                        <td class="text-bold">12:00pm</td><td>Q&A</td>
+                        <td class="text-bold ips-green">12:00pm</td><td>Q&A</td>
                     </tr>
                     <tr>
-                        <td class="text-bold">12:15pm</td><td>Lunch and networking</td>
+                        <td class="text-bold ips-green">12:15pm</td><td>Lunch and networking</td>
                     </tr>
                     <tr>
-                        <td class="text-bold">1:00pm</td><td>Close</td>
+                        <td class="text-bold ips-green">1:00pm</td><td>Close</td>
                     </tr>
                 </table>
             </div>
@@ -191,7 +191,7 @@ $rootDir = 'http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solut
                     <div class="large-6 columns">
                         <div class="table-center-container large-min-height-320">
                             <div class="table-center-cell">
-                                <h3 class="h1 text-upper-case ips-white text-left">Sign up today to attend today</h3>
+                                <h3 class="h1 text-upper-case ips-white text-center">Sign up today to attend today</h3>
                             </div>
                         </div>
 
@@ -231,8 +231,9 @@ $rootDir = 'http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solut
         <!-- background -->
         <div class="ips-background ips-background-grey"></div>
     </section>
-
-    <script src="<?php echo $rootDir; ?>bower_components/jquery/dist/jquery.min.js"></script>
+  <script language="JavaScript" src="http://aws.predictiveresponse.net/http/trac.js"> </script>
+  <script language="JavaScript"> trackPredictive(); </script>
+  <script src="<?php echo $rootDir; ?>bower_components/jquery/dist/jquery.min.js"></script>
     <script src="<?php echo $rootDir; ?>bower_components/foundation/js/foundation.min.js"></script>
     <script src="<?php echo $rootDir; ?>js/app.js"></script>
     <script src="http://maps.google.com/maps/api/js?sensor=false&libraries=geometry&v=3.7">
