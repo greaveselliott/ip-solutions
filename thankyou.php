@@ -875,7 +875,7 @@ body.outlook p {
                                             <tr>
                                                 <td>
 
-                                                    <h2 class="center">Thank you for registering we will see you on April 1st</h2>
+                                                    <h2 class="center">Thank you for registering - See you on April 1st</h2>
                                                 </td>
                                                 <td class="expander"></td>
                                             </tr>
@@ -904,8 +904,23 @@ body.outlook p {
                                     </td>
                                 </tr>
                             </table>
+                            <table class="row">
+                                <tr>
+                                    <td class="wrapper last">
 
+                                        <table class="twelve columns">
+                                            <tr>
+        
+                                                <td class="twelve sub-columns">
+                                                    <h6 class="center">Don't forget to ask us about our 50% cloud workshop offer!</h6>
+                                                </td>
+                                                <td class="expander"></td>
+                                            </tr>
+                                        </table>
 
+                                    </td>
+                                </tr>
+                            </table>
                             <table class="row">
                                 <tr>
                                     <td class="wrapper">
@@ -944,7 +959,7 @@ body.outlook p {
                             </table>
 
 
-                            <table class="row">
+                            <!-- <table class="row">
                                 <tr>
                                     <td class="wrapper last">
 
@@ -962,7 +977,7 @@ body.outlook p {
                                     </td>
                                 </tr>
                             </table>
-
+ -->
                             <!-- container end below -->
                         </td>
                     </tr>
