@@ -112,11 +112,10 @@ $rootDir = 'http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solut
                     <tr>
                         <td class="text-bold ips-green">9:30am</td><td>Breakfast, refreshments and networking</td>
                     </tr>
+                    <tr><td class="text-bold ips-green">10:00am</td><td>Housekeeping</td></tr>
+                    <tr><td class="text-bold ips-green">10:05am</td><td>Welcome & Opening - Piers Linney</td></tr>
                     <tr>
-                        <td class="text-bold ips-green">10:00am</td><td>Welcome and housekeeping</td>
-                    </tr>
-                    <tr>
-                        <td class="text-bold ips-green">10:10am</td><td>IP Solutions Cloud Strategy</td>
+                        <td class="text-bold ips-green">10:20am</td><td>IP Solutions Cloud Strategy</td>
                     </tr>
                     <tr>
                         <td class="text-bold ips-green">10:40am</td><td>The benefits of voice-enabling O365</td>
