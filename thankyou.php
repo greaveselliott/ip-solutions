@@ -1,9 +1,3 @@
-<?php
-    /*
-     *
-     * Template Name: Microsoft Lync - Thank you
-    */
-?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -442,8 +436,8 @@ table.large-button td {
     display: block;
     width: auto !important;
     text-align: center;
-    background: #2ba6cb;
-    border: 1px solid #2284a1;
+    background: #d2e214;
+    /*border: 1px solid #2284a1;*/
     color: #ffffff;
     padding: 8px 0;
 }
@@ -787,192 +781,105 @@ body.outlook p {
             padding-right: 10px !important;
         }
     }
+    p, h1, h2, h3, h4, h5, h6 {
+        -webkit-hyphens: none;
+        -moz-hyphens: none;
+        hyphens: none;
+    }
 
+    .text-align-right {
+        text-align: right !important;
+    }
+    .padding-bottom-0 {
+        padding-bottom: 0px !important;
+    }
+    .padding-top-0 {
+        padding-top: 0px !important;
+    }
 
+    .ips-background-blue {
+        background-color: #0379ae;
+    }
+
+    .ips-background-grey {
+        background-color: #5d676b;
+    }
+    .ips-white {
+        color: white !important;
+    }
+    .ips-green {
+        color: #d2e214;
+    }
+    .ips-grey {
+        color: #5d676b;
+    }
+
+    .padding-top-bottom-10 {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+    .padding-top-bottom-30 {
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+    }
+    .list-style-none {
+        list-style-type: none;
+    }
+    .margin-0 {
+        margin: 0;
+    }
+    .padding-0 {
+        padding: 0;
+    }
 </style>
 </head>
 <body>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.0";
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
 <table class="body">
+<tr>
+<td class="center" align="center" valign="top">
+<center>
+<table class="container">
+<tr>
+<td>
+<!-- content start -->
+<table class="row">
     <tr>
-        <td class="center" align="center" valign="top">
+        <td class="wrapper last padding-top-0">
+
+            <table class="twelve columns">
+                <tr>
+                    <td>
+
+                        <img width="146" height="50" class="padding-top-0" src="http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solutions/images/ipsolutionslogo.jpg">
+
+                    </td>
+                    <td class="expander"></td>
+                </tr>
+            </table>
+
+        </td>
+    </tr>
+</table>
+<table class="row ips-background-blue">
+    <tr>
+        <td class="center" align="center">
             <center>
-
-
-                <table class="row">
-                    <tr>
-                        <td class="center" align="center">
-                            <center>
-
-                                <table class="container">
-                                    <tr>
-                                        <td class="wrapper last">
-
-                                            <table class="twelve columns">
-                                                <tr>
-
-                                                    <td class="three sub-columns">
-                                                        <img src="http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solutions/images/ipsolutionslogo-bigger.jpg">
-                                                    </td>
-                                                    <td class="nine sub-columns last" align="right" style="text-align:right; vertical-align:middle;">
-                                                    </td>
-                                                    <td class="expander"></td>
-
-                                                </tr>
-                                            </table>
-
-                                        </td>
-                                    </tr>
-                                </table>
-
-                            </center>
-                        </td>
-                    </tr>
-                </table>
-                <br>
 
                 <table class="container">
                     <tr>
-                        <td>
+                        <td class="wrapper last">
 
-                            <!-- content start -->
-                            <table class="row">
+                            <table class="twelve columns">
                                 <tr>
-                                    <td class="wrapper last">
 
-                                        <table class="twelve columns">
-                                            <tr>
-                                                <td>
-
-                                                    <img width="580" height="193" class="padding-top-0" src="http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solutions/images/email-background.png">
-
-                                                </td>
-                                                <td class="expander"></td>
-                                            </tr>
-                                        </table>
-
+                                    <td class="twelve sub-columns padding-top-bottom-10 text-pad">
+                                        <h3 class="center ips-white">Thank you for registering. We will see yo on April 1st.</h3>
                                     </td>
+
+                                    <td class="expander"></td>
+
                                 </tr>
                             </table>
-                            <table class="row">
-                                <tr>
-                                    <td class="wrapper last">
-
-                                        <table class="twelve columns">
-                                            <tr>
-                                                <td>
-
-                                                    <h2 class="center">Thank you for registering - See you on April 1st</h2>
-                                                </td>
-                                                <td class="expander"></td>
-                                            </tr>
-                                        </table>
-
-                                    </td>
-                                </tr>
-                            </table>
-
-
-                            <table class="row">
-                                <tr>
-                                    <td class="wrapper last">
-
-                                        <table class="twelve columns">
-                                            <tr>
-                                                <td class="one sub-columns"></td>
-                                                <td class="ten sub-columns">
-                                                    <p>If you have any dietary or other requirements please do let us know. In the meantime, please do invite colleagues or friends you feel this event would benefit.</p>
-                                                </td>
-                                                <td class="one sub-columns"></td>
-                                                <td class="expander"></td>
-                                            </tr>
-                                        </table>
-
-                                    </td>
-                                </tr>
-                            </table>
-                            <table class="row">
-                                <tr>
-                                    <td class="wrapper last">
-
-                                        <table class="twelve columns">
-                                            <tr>
-        
-                                                <td class="twelve sub-columns">
-                                                    <h6 class="center">Don't forget to ask us about our 50% cloud workshop offer!</h6>
-                                                </td>
-                                                <td class="expander"></td>
-                                            </tr>
-                                        </table>
-
-                                    </td>
-                                </tr>
-                            </table>
-                            <table class="row">
-                                <tr>
-                                    <td class="wrapper">
-
-                                        <table class="twelve columns">
-                                            <tr>
-                                                <td class="one sub-columns"></td>
-                                                <td class="seven sub-columns">
-                                                    <h5>Share with your friends</h5>
-
-                                                </td>
-                                                <td class="one sub-columns">
-                                                    <a class="twitter-share-button"
-                                                       href="https://twitter.com/share&text=Just signed for for microsoft seminar">
-                                                        Tweet
-                                                    </a>
-                                                </td>
-                                                <td class="one sub-columns">
-                                                    <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
-                                                    <script type="IN/Share" data-url="http://www.ipsolutions.co.uk/microsoft-lync/" data-counter="right"></script>
-                                                </td>
-                                                <td class="one sub-columns">
-                                                    <div class="fb-share-button" data-href="http://www.ipsolutions.co.uk/microsoft-lync/" data-layout="button_count"></div>
-                                                </td>
-                                                <div class="one sub-columns last"></div>
-                                                <td class="expander"></td>
-                                            </tr>
-                                        </table>
-
-                                    </td>
-                                    <td class="wrapper last">
-
-
-                                    </td>
-                                </tr>
-                            </table>
-
-
-                            <!-- <table class="row">
-                                <tr>
-                                    <td class="wrapper last">
-
-                                        <table class="twelve columns">
-                                            <tr>
-                                                <td align="center">
-                                                    <center>
-                                                        <p style="text-align:center;"><a href="#">Terms</a> | <a href="#">Privacy</a> | <a href="#">Unsubscribe</a></p>
-                                                    </center>
-                                                </td>
-                                                <td class="expander"></td>
-                                            </tr>
-                                        </table>
-
-                                    </td>
-                                </tr>
-                            </table>
- -->
-                            <!-- container end below -->
                         </td>
                     </tr>
                 </table>
@@ -981,6 +888,190 @@ body.outlook p {
         </td>
     </tr>
 </table>
+
+<table class="row">
+    <tr>
+        <td class="wrapper last">
+            <h3 class="ips-green center padding-top-bottom-30">Agenda</h3>
+            <table class="twelve columns">
+                <tr>
+                    <td class="four sub-columns text-align-right">9:30am</td><td class="eight sub-columns">Breakfast, refreshments and networking</td>
+                </tr>
+                <tr>
+                    <td  class="four sub-columns text-align-right">10:00am</td><td class="eight sub-columns">Housekeeping</td>
+                </tr>
+                <tr>
+                    <td  class="four sub-columns text-align-right">10:05am</td><td class="eight sub-columns">Welcome & Opening - Piers Linney</td>
+                </tr>
+                <tr>
+                    <td  class="four sub-columns text-align-right">10:20am</td><td class="eight sub-columns">IP Solutions Cloud Strategy</td>
+                </tr>
+                <tr>
+                    <td  class="four sub-columns text-align-right">10:40am</td><td class="eight sub-columns">The benefits of voice-enabling O365</td>
+                </tr>
+                <tr>
+                    <td  class="four sub-columns text-align-right">11:00am</td><td class="eight sub-columns">Comfort break</td>
+                </tr>
+                <tr>
+                    <td  class="four sub-columns text-align-right">11:20am</td><td class="eight sub-columns">Why Cloud and How to Get There</td>
+                </tr>
+                <tr>
+                    <td  class="four sub-columns text-align-right">11:40am</td><td class="eight sub-columns">The Subscription Economy: Capex versus Opex</td>
+                </tr>
+                <tr>
+                    <td  class="four sub-columns text-align-right">12:00pm</td><td class="eight sub-columns">Q&A</td>
+                </tr>
+                <tr>
+                    <td  class="four sub-columns text-align-right">12:15pm</td><td class="eight sub-columns">Lunch and networking</td>
+                <tr>
+                    <td  class="four sub-columns text-align-right">1:00pm</td><td class="eight sub-columns">Close</td>
+                </tr>
+            </table>
+
+        </td>
+    </tr>
+</table>
+<br>
+<hr>
+<br>
+<table class="row">
+    <tr>
+        <td class="wrapper last">
+            <table class="twelve columns">
+                <h3 class="ips-green padding-top-bottom-30 center">Location</h3>
+            </table>
+            <table class="twelve columns">
+                <tr>
+                    <td class="six sub-columns">
+                        <img src="http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solutions/images/gmaps-location.png">
+                    </td>
+                    <td class="six sub-columns">
+                        <ul class="list-style-none margin-0 padding-0">
+                            <li>Cardinal Place</li>
+                            <li>Auditorium 1</li>
+                            <li>80-100 Victoria Street</li>
+                            <li>London</li>
+                            <li>SW1E 5JL</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+<br>
+<hr>
+<br>
+<table class="row">
+    <tr>
+        <td class="wrapper last">
+
+            <table class="twelve columns">
+                <tr>
+                    <td class="two sub-columns">
+
+                    </td>
+                    <td class="eight sub-columns">
+                        <table>
+                            <tr>
+                                <td>
+                                    <a href="mailto:?subject=Join us and Dragons Den's Piers Linney at Microsoft's London Office on the 1st April.&amp;body=Register for the event here http://www.ipsolutions.co.uk/microsoft-lync/" title="share by email"><img src="images/button-refer-to-collegue.png" alt="Refer to a collegue"></a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="two sub-columns last"></td>
+                    <td class="expander"></td>
+                </tr>
+            </table>
+
+            <table class="six columns">
+                <tr>
+                    <td>
+                        <img src="images/lync-office.png" width="280" height="37" class=" padding-top-bottom-10">
+                    </td>
+                    <td class="expander"></td>
+                </tr>
+            </table>
+            <table class="nine columns">
+                <tr>
+                    <td>
+                        <h4 class="ips-grey padding-top-bottom-30 center">Don't forget to ask us about our 50% of cloud workshop offer!</h4>
+                    </td>
+                </tr>
+            </table>
+
+        </td>
+    </tr>
+</table>
+<table class="row ips-background-grey padding-top-bottom-30">
+    <tr>
+        <td class="wrapper">
+
+            <table class="twelve columns">
+                <tr>
+                    <td class="one sub-columns"></td>
+                    <td class="five sub-columns">
+                        <h4 class="ips-green">Connect With Us:</h4>
+
+                    </td>
+                    <td class="one sub-columns">
+                        <table>
+                            <tr>
+                                <td>
+                                    <a href="https://twitter.com/ipsolutionsuk" target="_blank"><img src="images/social-01.png"></a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="one sub-columns">
+                        <table>
+                            <tr>
+                                <td>
+
+                                    <a href="https://www.linkedin.com/company/ip-solutions-uk-ltd" target="_blank"><img src="images/social-03.png" ></a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="two sub-columns last"></td>
+                    <td class="expander"></td>
+                </tr>
+            </table>
+        </td>
+        <td class="wrapper last">
+        </td>
+    </tr>
+</table>
+<table class="row">
+    <tr>
+        <td class="wrapper last">
+
+            <table class="twelve columns">
+                <tr>
+                    <td align="center">
+                        <center>
+                            <p style="text-align:center;"><a href="#">Terms</a> | <a href="#">Privacy</a> | <a href="#">Unsubscribe</a></p>
+                        </center>
+                    </td>
+                    <td class="expander"></td>
+                </tr>
+            </table>
+
+        </td>
+    </tr>
+</table>
+<!-- container end below -->
+</td>
+</tr>
+</table>
+
+</center>
+</td>
+</tr>
+</table>
+</body>
+</html>
 <script>
     window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));
 </script>

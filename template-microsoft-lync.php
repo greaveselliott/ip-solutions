@@ -2,8 +2,8 @@
 /*
 * Template Name: Microsoft Lync
 */
-$rootDir = '';
-//$rootDir = 'http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solutions/';
+//$rootDir = '';
+$rootDir = 'http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solutions/';
 ?>
 <!doctype html>
 <html class="no-js" lang="en">
