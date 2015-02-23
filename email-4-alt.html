@@ -823,6 +823,9 @@ body.outlook p {
     .margin-bottom-10 {
         margin-bottom: 10px !important;
     }
+    .padding-bottom-0 {
+        padding-bottom: 0 !important;
+    }
     /*.ips_background_green table,*/
     /*.ips_background_green td,*/
     /*.ips_background_green tr,*/
@@ -836,6 +839,10 @@ body.outlook p {
         /*color: white !important;*/
     /*}*/
     /**/
+    body.outlook img {
+        width: auto !important;
+        max-width: none !important;
+    }
 
 </style>
 </head>
@@ -876,7 +883,7 @@ body.outlook p {
                                 <td>
                                     <!--<h1>Welcome, Daneel Olivan</h1>-->
                                     <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>-->
-                                    <a href="http://www.ipsolutions.co.uk"><img width="585px" height="181px" src="http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solutions/images/header.jpg"></a>
+                                    <a href="http://www.ipsolutions.co.uk"><img width="585px" height="181px" src="http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solutions/images/email-header.jpg"></a>
                                     <!--<a href="http://www.ipsolutions.co.uk"><img width="580px" height="180" src="http://www.placehold.it/580x180"></a>-->
                                 </td>
                                 <td class="expander"></td>
@@ -927,87 +934,49 @@ body.outlook p {
                     </td>
                 </tr>
             </table>
-            <!--<table class="row ips_background_white">-->
-                <!--<tr>-->
-                    <!--<td class="wrapper">-->
-                        <!--<table class="six columns">-->
-
-                            <!--<tr>-->
-                                <!--<td class="panel">-->
-                                    <!--<img src="http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/images/profile-account-manager.jpg">-->
-                                    <!--<p class="text-center ips_blue">-->
-                                        <!--Richard Crowther<br>-->
-                                        <!--Account Manager</p>-->
-                                <!--</td>-->
-                                <!--<td class="expander"></td>-->
-                            <!--</tr>-->
-                        <!--</table>-->
-
-                    <!--</td>-->
-                    <!--<td class="wrapper last">-->
-
-                        <!--<table class="six columns">-->
-                            <!--<tr>-->
-                                <!--<td class="panel">-->
-                                    <!--<h6>Quarterly Customer Satisfaction Survey</h6>-->
-                                        <!--<p>When it comes to customer service, we aim to excel. This means that we need regular feedback from you to ensure we're delivering excellent levels of service. If we're not, it helps us understand how we can improve. Our survey takes no more than 2 minutes and goes a long way in helping everyone at IP Solutions understand how we can deliver excellent levels of customer service. Please click the below button to complete our customer satisfaction survey.</p>-->
-                                    <!--<table class="button">-->
-                                        <!--<tr>-->
-                                            <!--<td>-->
-                                                <!--<a href="http://192.168.33.10/ip-solutions/{{$custom1}}">Customer Satisfaction Survey</a>-->
-                                            <!--</td>-->
-                                        <!--</tr>-->
-                                    <!--</table>-->
-                                <!--</td>-->
-                                <!--<td class="expander"></td>-->
-                            <!--</tr>-->
-                        <!--</table>-->
-                    <!--</td>-->
-                <!--</tr>-->
-            <!--</table>-->
-        <table class="row ips_background_white">
-            <tr>
-                <td class="wrapper">
-
-                    <table class="six columns">
-                        <tr>
-                            <td class="panel">
+            <table class="row ips_background_white">
+                <tr>
+                    <td class="wrapper">
+                        <table class="six columns">
+                            <tr>
+                                <td class="panel">
                                 <img height="243px" width="258px" src="http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/images/profile-account-manager.jpg">
-                                <p class="text-center ips_blue">
-                                    Richard Crowther<br>
-                                    Account Manager</p>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-                <td class="wrapper last">
-                    <table class="six columns">
-                        <tr>
-                            <td class="panel">
-                                <h6>Quarterly Customer Satisfaction Survey</h6>
-                                <p>When it comes to customer service, we aim to excel. This means that we need regular feedback from you to ensure we're delivering excellent levels of service. If we're not, it helps us understand how we can improve. Our survey takes no more than 2 minutes and goes a long way in helping everyone at IP Solutions understand how we can deliver excellent levels of customer service. Please click the below button to complete our customer satisfaction survey.</p>
-                                <table class="button">
-                                    <tr>
-                                        <td>
-                                            <a href="http://192.168.33.10/ip-solutions/{{$custom1}}">Customer Satisfaction Survey</a>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                            <td class="expander"></td>
-                        </tr>
-
-                    </table>
-                </td>
-            </tr>
-        </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="panel">
+                                    <p class="text-center ips_blue">Richard Crowther</p>
+                                    <p class="text-center ips_blue">Account Manager</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="wrapper last">
+                        <table class="six columns">
+                            <tr>
+                                <td class="panel">
+                                    <h6>Quarterly Customer Satisfaction Survey</h6>
+                                    <p>When it comes to customer service, we aim to excel. This means that we need regular feedback from you to ensure we're delivering excellent levels of service. If we're not, it helps us understand how we can improve. Our survey takes no more than 2 minutes and goes a long way in helping everyone at IP Solutions understand how we can deliver excellent levels of customer service. Please click the below button to complete our customer satisfaction survey.</p>
+                                    <table class="button">
+                                        <tr>
+                                            <td>
+                                                <a href="http://192.168.33.10/ip-solutions/{{$custom1}}">Customer Satisfaction Survey</a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td class="expander"></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
             <!-- END OF SECTION 1 -->
             <!--<br>-->
             <!-- SECTION 2: News - Green -->
             <table class="row ips_background_green border_top_blue border_bottom_blue">
                 <tr>
                     <td class="wrapper">
-
                         <table class="six columns">
                             <tr>
                                 <td  class="text-pad-left">
@@ -1032,29 +1001,19 @@ body.outlook p {
                             </tr>
                         </table>
                     </td>
+                    <td class="expander"></td>
                 </tr>
             </table>
-            <!-- END OF SECTION 2 -->
-            <!--<br>-->
-            <!-- SECTION 3: tech in focus ect... -->
+            <!-- Articles: Side-by-Side -->
             <table class="row ips_background_white">
                 <tr>
-                    <td class="wrapper ips_padding-top-0">
-
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="wrapper">
                         <table class="six columns">
                             <tr>
-                                <td>
-                                    <table class="width-100">
-                                        <tr>
-                                            <td>
-
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="text-pad-left">
+                                <td class="text-pad">
                                     <p class="ips_blue">Increased uptake of Virtual Contact Centre</p>
                                     <p>Virtual Contact Centres are a Cloud based solution which allows customers to contact services through their preferred method of communication. This could be via web chat, email, social networking sites such as Linkedin and Twitter, or even the generic phone call.</p><p>
 
@@ -1063,16 +1022,19 @@ body.outlook p {
                                     Companies in the past would have invested heavy money into physical hardware to increase office productivity, as well as the original set up capital. Through a VCC, office productivity is created through a scalable solution meaning as the business or organisation grows the software can be expanded to accommodate. Other features include focus on calls being answered through skills based routing which automatically distribute calls to agents depending on skills set, with open source API integrations with CRM’s such as Salesforce and Zensdesk and a granular reporting facility when agents are on breaks.
                                 </p><p>
                                     Virtual Contact Centres are easy to deploy, figure and use, therefore would be an asset to update your traditional centre.
-</p>
-                                    <!-- LINE SEPARATING STORIES -->
-                                    <br>
-                                    <hr>
-                                    <br>
-                                    <!-- LINE SEPARATING STORIES-->
+                                </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="wrapper last">
+                        <table class="six columns">
+                            <tr>
+                                <td class="text-pad-right">
                                     <p class="ips_blue">IP Solutions set up Virtual Contact Centre in Bulgaria</p>
-<p>
-                                    Reward Gateway is a global company focused on bringing a company’s employees together through online platforms. Originally based in Notting Hill, Reward Gateway wanted to move their contact centres to Bulgaria but still be able to control and communicate from their main offices in London.
-</p><p>
+                                    <p>
+                                        Reward Gateway is a global company focused on bringing a company’s employees together through online platforms. Originally based in Notting Hill, Reward Gateway wanted to move their contact centres to Bulgaria but still be able to control and communicate from their main offices in London.
+                                    </p><p>
                                     With no phone system and only an internet connection in place, Reward Gateway had to work quickly to meet the deadline of their new office opening. Within two weeks of the customer moving forward with us through a cloud based hosted, telephony solution, they went live.
                                 </p><p>
                                     During the training process at the Bulgarian office, we created a ratio split on inbound calls, 70% of calls continued going to the UK office while the new call centre found its feet, as they progressed the ratio spun around until the London call centre was closed.
@@ -1081,13 +1043,15 @@ body.outlook p {
                                 </p><p>
                                     Reward Gateway was able to deploy a global telephony and VCC solutions where calls are delivered to the call centre from any destination, yet still be managed by the London office.</p>
                                 </td>
-                                <td class="expander"></td>
                             </tr>
                         </table>
-
                     </td>
-                    <td class="wrapper last ips_padding-top-0 border_thin_blue">
-                        <!-- TECHNLOGY IN FOCUS START -->
+                </tr>
+            </table>
+            <!-- Articles: Advertisement -->
+            <table class="row ips_background_white">
+                <tr>
+                    <td class="wrapper">
                         <table class="six columns">
                             <tr>
                                 <td>
@@ -1098,20 +1062,23 @@ body.outlook p {
                                             </td>
                                         </tr>
                                     </table>
+                                    <table>
+                                        <tr>
+                                            <td class="text-pad">
+                                                <p>Losing data is painful. Lost data means, lost time, lost money and most drastically lost clients. Businesses have always had a requirement for data back up, in the past this has been in the form of tapes or hard-drives kept offsite, it’s time to move on of the hardware and move onto the cloud.</p>
 
-                                    <p class="text-pad">Losing data is painful. Lost data means, lost time, lost money and most drastically lost clients. Businesses have always had a requirement for data back up, in the past this has been in the form of tapes or hard-drives kept offsite, it’s time to move on of the hardware and move onto the cloud.
+                                                <p >Now internet is more accessible to all businesses, we install software over multiplatform servers and sites, providing companies with incremental back up throughout the week and a full back up every weekend. This automated process sends the backed up data to your companies personalised, secure cloud storage and can only be accessed through an encrypted key.</p>
 
-                                        Now internet is more accessible to all businesses, we install software over multiplatform servers and sites, providing companies with incremental back up throughout the week and a full back up every weekend. This automated process sends the backed up data to your companies personalised, secure cloud storage and can only be accessed through an encrypted key.
-
-                                        Unlike physical drives, the cloud has limitless storage and quickly deployable from any platform, for more information on the Cloud Back Up services <a href="#">Click here</a></p>
-
+                                                <p>Unlike physical drives, the cloud has limitless storage and quickly deployable from any platform, for more information on the Cloud Back Up services <a href="#">Click here</a></p>
+                                            </td>
+                                        </tr>
+                                    </table>
 
                                 </td>
-                                <td class="expander"></td>
                             </tr>
                         </table>
-                        <!-- TECHNOLOGY IN FOCUS END -->
-                        <!-- DID YOU KNOW START-->
+                    </td>
+                    <td class="wrapper last">
                         <table class="six columns">
                             <tr>
                                 <td>
@@ -1123,34 +1090,27 @@ body.outlook p {
                                         </tr>
                                     </table>
                                     <table class=" text-pad"><tr><td class="panel">
-                                    <p>IP Solutions can help you get better connected by helping you take advantage of the Government Voucher Scheme. Contact us to find out more.</p></td></tr></table>
+                                        <p>IP Solutions can help you get better connected by helping you take advantage of the Government Voucher Scheme. Contact us to find out more.</p></td></tr></table>
                                 </td>
                                 <td class="expander"></td>
                             </tr>
                         </table>
-                        <!-- DID YOU KNOW END -->
-                        <br>
-                        <!-- ADVERTISEMENT START-->
                         <table class="six columns">
                             <tr>
-                                <td class="text-pad"><hr></td>
-                            </tr>
-                            <tr>
-                                <td>
 
+                                <td class="padding-bottom-0">
                                     <h5 class="text-pad center ips_blue"><span class="font-size-90-percent">Ever wondered how to voice enable Office 365?</span></h5><br>
                                     <h6 class="text-pad center">Join us at Microsoft on the 1st April to find out how.</h6>
                                     <br>
                                     <h6 class="text-pad center ips_blue">Click below to register</h6>
                                     <br>
-                                    <a href="http://www.ipsolutions.co.uk/microsoft-lync/"><img height="250px" width="280px" src="http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solutions/images/email-sidebar-image-cropped.png"></a></td>
+                                    <a href="http://www.ipsolutions.co.uk/microsoft-lync/"><img height="250px" width="280px" src="http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solutions/images/email-sidebar-image-cropped.png"></a>
+                                </td>
                             </tr>
                         </table>
-                        <!-- ADVERTISEMENT END -->
                     </td>
                 </tr>
             </table>
-            <!-- END OF SECTION 1 -->
             <!-- Legal + Unsubscribe -->
             <table class="row">
                 <tr>

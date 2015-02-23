@@ -2,8 +2,8 @@
 /*
 * Template Name: Microsoft Lync
 */
-//$rootDir = '';
-$rootDir = 'http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solutions/';
+$rootDir = '';
+//$rootDir = 'http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solutions/';
 ?>
 <!doctype html>
 <html class="no-js" lang="en">
@@ -34,14 +34,6 @@ $rootDir = 'http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solut
                     <img src="<?php echo $rootDir; ?>images/microsoft-logo.png">
                 </div>
             </div>
-            <!-- nav -->
-            <!--<nav class="right ul-stick-bottom">-->
-                <!--<ul>-->
-                    <!--<li class="display-inline-block"><a href="#" class="link-agenda">Agenda</a></li>-->
-                    <!--<li class="display-inline-block"><a href="#" class="link-location">Location</a></li>-->
-                    <!--<li class="display-inline-block"><a href="#" class="link-contact">Contact</a></li>-->
-                <!--</ul>-->
-            <!--</nav>-->
         </div>
         <!-- background -->
         <div class="ips-background ips-background-white"></div>
@@ -51,23 +43,17 @@ $rootDir = 'http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solut
         - background image -->
     <section class="full-screen padding-60-75">
         <div class="row">
-            <div class="large-12 columns large-centered">
-                <h2 class="text-center ips-green h1">Ever wondered how to voice enable Office 365?</h2>
-            </div>
-        </div>
-        <div class="row">
             <div class="large-10 columns large-centered">
                 <!-- FORM START -->
                 <div class="row ips-background-box ips-background-blue" id="sign-up-form">
-                    <div class="row"><div class="large-12 columns"><h3 class="ips-white padding-bottom-10 h1 text-center">Sign up</h3></div></div>
+                    <div class="row"><div class="large-12 columns"><h3 class="padding-bottom-10 h1 text-center ips-green">Register</h3></div></div>
                     <!-- Title -->
-                    <div class="large-6 columns">
-                        <h3 class="ips-white heading-line-height h3 padding-top-30">Join us at Microsoft in London on the 1st April to find out how you can maximise Office 365 functionality</h3>
-                        <hr>
-                        <h4 class="ips-white h5">Without voice enabling Office 365 you could be losing more than 20% functionality.</h4>
+                    <div class="large-6 columns ">
+                        <h3 class="ips-white heading-line-height h2_5 padding-top-30 padding-bottom-10">Join us and Dragons Den's Piers Linney at Microsofts London <br>Offices on the 1st April.</h3>
+                        <h5 class="ips-white h5">Without voice enabling Office 365 you could be losing more than 20% functionality.</h5>
                     </div>
                     <!-- Sign up -->
-                    <div class="large-6 columns">
+                    <div class="large-6 columns border-left no-border-left-small">
                         <script charset="utf-8" src="//js.hsforms.net/forms/current.js"></script>
                         <script>
                             hbspt.forms.create({
@@ -75,23 +61,6 @@ $rootDir = 'http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solut
                                 formId: '2153ac64-29d3-4bae-84eb-c57dafd200fb'
                             });
                         </script>
-
-
-                        <!--                        <form>-->
-<!--                            <label><span class="hide">Name</span>-->
-<!--                                <input type="text" placeholder="Name" />-->
-<!--                            </label>-->
-<!--                            <label><span class="hide">Company</span>-->
-<!--                                <input type="text" placeholder="Company" />-->
-<!--                            </label>-->
-<!--                            <label><span class="hide">Job Title</span>-->
-<!--                                <input type="text" placeholder="Job Title" />-->
-<!--                            </label>-->
-<!--                            <label><span class="hide">Email</span>-->
-<!--                                <input type="text" placeholder="Email" />-->
-<!--                            </label>-->
-<!--                            <input type="submit" class="button ips-background-green">-->
-<!--                        </form>-->
                     </div>
                 </div>
                 <!-- FORM END -->
@@ -112,16 +81,12 @@ $rootDir = 'http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solut
                     <tr>
                         <td class="text-bold ips-green">9:30am</td><td>Breakfast, refreshments and networking</td>
                     </tr>
-                    <tr><td class="text-bold ips-green">10:00am</td><td>Housekeeping</td></tr>
-                    <tr><td class="text-bold ips-green">10:05am</td><td>Welcome & Opening - Piers Linney</td></tr>
+                    <tr><td class="text-bold ips-green">10:00am</td><td>Welcome & Opening</td></tr>
                     <tr>
-                        <td class="text-bold ips-green">10:20am</td><td>IP Solutions Cloud Strategy</td>
+                        <td class="text-bold ips-green">10:20am</td><td>Cloud Strategy & Market Overview</td>
                     </tr>
                     <tr>
                         <td class="text-bold ips-green">10:40am</td><td>The benefits of voice-enabling O365</td>
-                    </tr>
-                    <tr>
-                        <td class="text-bold ips-green">11:00am</td><td>Comfort break</td>
                     </tr>
                     <tr>
                         <td class="text-bold ips-green">11:20am</td><td>Why Cloud and How to Get There</td>

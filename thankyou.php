@@ -821,13 +821,7 @@ body.outlook p {
                                                     <td class="three sub-columns">
                                                         <img src="http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solutions/images/ipsolutionslogo-bigger.jpg">
                                                     </td>
-                                                    <td class="one sub-columns" align="right" style="text-align:right; vertical-align:middle;">
-                                                        <img src="http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solutions/images/lync_logo_1.jpg">
-                                                    </td>
-                                                    <td class="one sub-columns" align="right" style="text-align:right; vertical-align:middle;">
-                                                        <img src="http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solutions/images/microsoft-logo.png">
-                                                    </td>
-                                                    <td class="seven sub-columns last" align="right" style="text-align:right; vertical-align:middle;">
+                                                    <td class="nine sub-columns last" align="right" style="text-align:right; vertical-align:middle;">
                                                     </td>
                                                     <td class="expander"></td>
 

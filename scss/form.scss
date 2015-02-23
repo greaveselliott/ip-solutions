@@ -37,3 +37,18 @@ input[type="text"], input[type="submit"], .button {
     cursor: pointer !important;
   }
 }
+
+.border-left {
+  border-left: solid 3px white !important;
+}
+
+.no-border-left-small {
+  @include respond-to(small-only){
+    border-left: none !important;
+  }
+}
+.no-border-left-medium {
+  @include respond-to(medium-only){
+    border-left: none !important;
+  }
+}
