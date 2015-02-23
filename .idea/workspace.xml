@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d957028c-495c-4534-985d-8733721ef984" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/email-4-alt.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/email-5.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Font-Awesome" afterPath="$PROJECT_DIR$/Font-Awesome" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/email-outgoing.html" afterPath="$PROJECT_DIR$/email-outgoing.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/email-thank-you.html" afterPath="$PROJECT_DIR$/email-thank-you.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template-microsoft-lync.php" afterPath="$PROJECT_DIR$/template-microsoft-lync.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thankyou.php" afterPath="$PROJECT_DIR$/thankyou.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ip-solutions.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="email-thank-you.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="email-thank-you.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/email-thank-you.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-590.8" vertical-offset="6626" max-vertical-offset="28475">
-              <caret line="974" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="1115" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.19250646" vertical-offset="25001" max-vertical-offset="28550">
+              <caret line="990" column="113" selection-start-line="990" selection-start-column="113" selection-end-line="990" selection-end-column="113" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#center#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#6;n#td#0;n#tr#0;n#table#0;n#center#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -62,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="thankyou.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="thankyou.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thankyou.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5155039" vertical-offset="26876" max-vertical-offset="27650">
-              <caret line="1073" column="7" selection-start-line="1073" selection-start-column="7" selection-end-line="1073" selection-end-column="7" />
+            <state vertical-scroll-proportion="-64.96667" vertical-offset="24826" max-vertical-offset="27650">
+              <caret line="1071" column="8" selection-start-line="1071" selection-start-column="8" selection-end-line="1071" selection-end-column="8" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#center#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#6;n#td#0;n#tr#0;n#table#0;n#center#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -77,7 +74,7 @@
       <file leaf-file-name="template-microsoft-lync.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template-microsoft-lync.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.6666666" vertical-offset="0" max-vertical-offset="5500">
+            <state vertical-scroll-proportion="47.5" vertical-offset="1475" max-vertical-offset="5500">
               <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
               <folding />
             </state>
@@ -117,8 +114,8 @@
       <file leaf-file-name="email-outgoing.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/email-outgoing.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.642857" vertical-offset="22602" max-vertical-offset="28125">
-              <caret line="910" column="28" selection-start-line="910" selection-start-column="28" selection-end-line="910" selection-end-column="28" />
+            <state vertical-scroll-proportion="-0.85714287" vertical-offset="24377" max-vertical-offset="28175">
+              <caret line="977" column="243" selection-start-line="977" selection-start-column="243" selection-end-line="977" selection-end-column="243" />
               <folding />
             </state>
           </provider>
@@ -166,10 +163,10 @@
         <option value="$PROJECT_DIR$/scss/form.scss" />
         <option value="$PROJECT_DIR$/scss/app.scss" />
         <option value="$PROJECT_DIR$/scss/colours.scss" />
-        <option value="$PROJECT_DIR$/email-outgoing.html" />
-        <option value="$PROJECT_DIR$/email-thank-you.html" />
         <option value="$PROJECT_DIR$/template-microsoft-lync.php" />
         <option value="$PROJECT_DIR$/thankyou.php" />
+        <option value="$PROJECT_DIR$/email-outgoing.html" />
+        <option value="$PROJECT_DIR$/email-thank-you.html" />
       </list>
     </option>
   </component>
@@ -288,7 +285,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32692307" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -844,36 +841,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/email-outgoing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.642857" vertical-offset="22602" max-vertical-offset="28125">
-          <caret line="910" column="28" selection-start-line="910" selection-start-column="28" selection-end-line="910" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template-microsoft-lync.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.6666666" vertical-offset="0" max-vertical-offset="5500">
+        <state vertical-scroll-proportion="47.5" vertical-offset="1475" max-vertical-offset="5500">
           <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/email-thank-you.html">
+    <entry file="file://$PROJECT_DIR$/thankyou.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-590.8" vertical-offset="6626" max-vertical-offset="28475">
-          <caret line="974" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="1115" selection-end-column="15" />
+        <state vertical-scroll-proportion="-64.96667" vertical-offset="24826" max-vertical-offset="27650">
+          <caret line="1071" column="8" selection-start-line="1071" selection-start-column="8" selection-end-line="1071" selection-end-column="8" />
           <folding>
             <element signature="n#style#0;n#p#0;n#center#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#6;n#td#0;n#tr#0;n#table#0;n#center#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thankyou.php">
+    <entry file="file://$PROJECT_DIR$/email-outgoing.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5155039" vertical-offset="26876" max-vertical-offset="27650">
-          <caret line="1073" column="7" selection-start-line="1073" selection-start-column="7" selection-end-line="1073" selection-end-column="7" />
+        <state vertical-scroll-proportion="-0.85714287" vertical-offset="24377" max-vertical-offset="28175">
+          <caret line="977" column="243" selection-start-line="977" selection-start-column="243" selection-end-line="977" selection-end-column="243" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/email-thank-you.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19250646" vertical-offset="25001" max-vertical-offset="28550">
+          <caret line="990" column="113" selection-start-line="990" selection-start-column="113" selection-end-line="990" selection-end-column="113" />
           <folding>
             <element signature="n#style#0;n#p#0;n#center#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#6;n#td#0;n#tr#0;n#table#0;n#center#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
