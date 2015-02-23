@@ -873,7 +873,7 @@ body.outlook p {
                                 <tr>
 
                                     <td class="twelve sub-columns padding-top-bottom-10 text-pad">
-                                        <h3 class="center ips-white">Thank you for registering. We will see yo on April 1st.</h3>
+                                        <h3 class="center ips-white">Thank you for registering.<br>We will see you on April 1st.</h3>
                                     </td>
 
                                     <td class="expander"></td>
@@ -898,19 +898,13 @@ body.outlook p {
                     <td class="four sub-columns text-align-right">9:30am</td><td class="eight sub-columns">Breakfast, refreshments and networking</td>
                 </tr>
                 <tr>
-                    <td  class="four sub-columns text-align-right">10:00am</td><td class="eight sub-columns">Housekeeping</td>
+                    <td  class="four sub-columns text-align-right">10:00am</td><td class="eight sub-columns">Welcome & Opening</td>
                 </tr>
                 <tr>
-                    <td  class="four sub-columns text-align-right">10:05am</td><td class="eight sub-columns">Welcome & Opening - Piers Linney</td>
-                </tr>
-                <tr>
-                    <td  class="four sub-columns text-align-right">10:20am</td><td class="eight sub-columns">IP Solutions Cloud Strategy</td>
+                    <td  class="four sub-columns text-align-right">10:20am</td><td class="eight sub-columns">Cloud Strategy & Market Overview</td>
                 </tr>
                 <tr>
                     <td  class="four sub-columns text-align-right">10:40am</td><td class="eight sub-columns">The benefits of voice-enabling O365</td>
-                </tr>
-                <tr>
-                    <td  class="four sub-columns text-align-right">11:00am</td><td class="eight sub-columns">Comfort break</td>
                 </tr>
                 <tr>
                     <td  class="four sub-columns text-align-right">11:20am</td><td class="eight sub-columns">Why Cloud and How to Get There</td>
@@ -975,7 +969,7 @@ body.outlook p {
                         <table>
                             <tr>
                                 <td>
-                                    <a href="mailto:?subject=Join us and Dragons Den's Piers Linney at Microsoft's London Office on the 1st April.&amp;body=Register for the event here http://www.ipsolutions.co.uk/microsoft-lync/" title="share by email"><img src="images/button-refer-to-collegue.png" alt="Refer to a collegue"></a>
+                                    <a href="mailto:?subject=Join us and Dragons Den's Piers Linney at Microsoft's London Office on the 1st April.&amp;body=Register for the event here http://www.ipsolutions.co.uk/microsoft-lync/" title="share by email"><img src="http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solutions/images/button-refer-to-collegue.png" alt="Refer to a collegue"></a>
                                 </td>
                             </tr>
                         </table>
@@ -988,7 +982,7 @@ body.outlook p {
             <table class="six columns">
                 <tr>
                     <td>
-                        <img src="images/lync-office.png" width="280" height="37" class=" padding-top-bottom-10">
+                        <img src="http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solutions/images/lync-office.png" width="280" height="37" class=" padding-top-bottom-10">
                     </td>
                     <td class="expander"></td>
                 </tr>
@@ -996,7 +990,7 @@ body.outlook p {
             <table class="nine columns">
                 <tr>
                     <td>
-                        <h4 class="ips-grey padding-top-bottom-30 center">Don't forget to ask us about our 50% of cloud workshop offer!</h4>
+                        <h4 class="ips-grey padding-top-bottom-30 center">Don't forget to ask us about our 50% off cloud workshop offer!</h4>
                     </td>
                 </tr>
             </table>
@@ -1019,7 +1013,7 @@ body.outlook p {
                         <table>
                             <tr>
                                 <td>
-                                    <a href="https://twitter.com/ipsolutionsuk" target="_blank"><img src="images/social-01.png"></a>
+                                    <a href="https://twitter.com/ipsolutionsuk" target="_blank"><img src="http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solutions/images/social-01.png"></a>
                                 </td>
                             </tr>
                         </table>
@@ -1029,7 +1023,7 @@ body.outlook p {
                             <tr>
                                 <td>
 
-                                    <a href="https://www.linkedin.com/company/ip-solutions-uk-ltd" target="_blank"><img src="images/social-03.png" ></a>
+                                    <a href="https://www.linkedin.com/company/ip-solutions-uk-ltd" target="_blank"><img src="http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solutions/images/social-03.png" ></a>
                                 </td>
                             </tr>
                         </table>
@@ -1043,24 +1037,24 @@ body.outlook p {
         </td>
     </tr>
 </table>
-<table class="row">
-    <tr>
-        <td class="wrapper last">
+<!--<table class="row">-->
+<!--<tr>-->
+<!--<td class="wrapper last">-->
 
-            <table class="twelve columns">
-                <tr>
-                    <td align="center">
-                        <center>
-                            <p style="text-align:center;"><a href="#">Terms</a> | <a href="#">Privacy</a> | <a href="#">Unsubscribe</a></p>
-                        </center>
-                    </td>
-                    <td class="expander"></td>
-                </tr>
-            </table>
+<!--<table class="twelve columns">-->
+<!--<tr>-->
+<!--<td align="center">-->
+<!--<center>-->
+<!--<p style="text-align:center;"><a href="#">Terms</a> | <a href="#">Privacy</a> | <a href="#">Unsubscribe</a></p>-->
+<!--</center>-->
+<!--</td>-->
+<!--<td class="expander"></td>-->
+<!--</tr>-->
+<!--</table>-->
 
-        </td>
-    </tr>
-</table>
+<!--</td>-->
+<!--</tr>-->
+<!--</table>-->
 <!-- container end below -->
 </td>
 </tr>
@@ -1070,8 +1064,6 @@ body.outlook p {
 </td>
 </tr>
 </table>
-</body>
-</html>
 <script>
     window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));
 </script>
