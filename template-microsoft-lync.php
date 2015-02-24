@@ -46,21 +46,57 @@ $rootDir = 'http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solut
             <div class="large-10 columns large-centered">
                 <!-- FORM START -->
                 <div class="row ips-background-box ips-background-blue" id="sign-up-form">
-                    <div class="row"><div class="large-12 columns"><h3 class="padding-bottom-10 h1 text-center ips-green">Register</h3></div></div>
+                    <div class="row"><div class="large-12 columns"><h3 class="padding-bottom-10 h1 text-center ips-green">Register today to attend</h3></div></div>
                     <!-- Title -->
                     <div class="large-6 columns ">
-                        <h3 class="ips-white heading-line-height h2_5 padding-top-30 padding-bottom-10">Join us and Dragons Den's Piers Linney at Microsofts London <br>Offices on the 1st April.</h3>
+                        <h3 class="ips-white heading-line-height h2_5 padding-top-30 padding-bottom-10">Join us and Dragons' Den's Piers Linney at Microsofts London <br>Offices on the 1st April.</h3>
                         <h5 class="ips-white h5">Without voice enabling Office 365 you could be losing more than 20% functionality.</h5>
                     </div>
                     <!-- Sign up -->
                     <div class="large-6 columns border-left no-border-left-small">
-                        <script charset="utf-8" src="//js.hsforms.net/forms/current.js"></script>
-                        <script>
-                            hbspt.forms.create({
-                                portalId: '330853',
-                                formId: '2153ac64-29d3-4bae-84eb-c57dafd200fb'
-                            });
-                        </script>
+<!--                        <script charset="utf-8" src="//js.hsforms.net/forms/current.js"></script>-->
+<!--                        <script>-->
+<!--                            hbspt.forms.create({-->
+<!--                                portalId: '330853',-->
+<!--                                formId: '2153ac64-29d3-4bae-84eb-c57dafd200fb'-->
+<!--                            });-->
+<!--                        </script>-->
+                        <!--  ----------------------------------------------------------------------  -->
+                        <!--  NOTE: Please add the following <META> element to your page <HEAD>.      -->
+                        <!--  If necessary, please modify the charset parameter to specify the        -->
+                        <!--  character set of your HTML page.                                        -->
+                        <!--  ----------------------------------------------------------------------  -->
+
+                        <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+
+                        <!--  ----------------------------------------------------------------------  -->
+                        <!--  NOTE: Please add the following <FORM> element to your page.             -->
+                        <!--  ----------------------------------------------------------------------  -->
+
+                        <form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+
+                            <input type=hidden name="oid" value="00D20000000019X">
+                            <input type=hidden name="retURL" value="http://www.ipsolutions.co.uk/microsoft-lync/thankyou/">
+
+                            <!--  ----------------------------------------------------------------------  -->
+                            <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+                            <!--  these lines if you wish to test in debug mode.                          -->
+                            <!--  <input type="hidden" name="debug" value=1>                              -->
+                            <!--  <input type="hidden" name="debugEmail"                                  -->
+                            <!--  value="paul.richards@ipsolutions.co.uk">                                -->
+                            <!--  ----------------------------------------------------------------------  -->
+
+                            Full Name:<input  id="00N20000009RegP" maxlength="40" name="00N20000009RegP" size="20" type="text" /><br>
+
+                            <label for="company">Company</label><input  id="company" maxlength="40" name="company" size="20" type="text" /><br>
+
+                            Job Title:<input  id="00N20000009RegZ" maxlength="40" name="00N20000009RegZ" size="20" type="text" /><br>
+
+                            <label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+
+                            <input type="submit" name="submit">
+
+                        </form>
                     </div>
                 </div>
                 <!-- FORM END -->

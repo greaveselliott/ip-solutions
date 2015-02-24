@@ -1,3 +1,8 @@
+<?
+/**
+ * Template name: Microsoft Lync - Thank You
+ */
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -831,6 +836,11 @@ body.outlook p {
     .padding-0 {
         padding: 0;
     }
+
+    .social-icon {
+        width: 40px;
+        height: 40px;
+    }
 </style>
 </head>
 <body>
@@ -888,12 +898,11 @@ body.outlook p {
         </td>
     </tr>
 </table>
-
 <table class="row">
     <tr>
         <td class="wrapper last">
             <h3 class="ips-green center padding-top-bottom-30">Agenda</h3>
-            <table class="twelve columns">
+            <table class="eight columns">
                 <tr>
                     <td class="four sub-columns text-align-right">9:30am</td><td class="eight sub-columns">Breakfast, refreshments and networking</td>
                 </tr>
@@ -969,7 +978,7 @@ body.outlook p {
                         <table>
                             <tr>
                                 <td>
-                                    <a href="mailto:?subject=Join us and Dragons Den's Piers Linney at Microsoft's London Office on the 1st April.&amp;body=Register for the event here http://www.ipsolutions.co.uk/microsoft-lync/" title="share by email"><img src="http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solutions/images/button-refer-to-collegue.png" alt="Refer to a collegue"></a>
+                                    <a href="mailto:?subject=Join us and Dragons' Den's Piers Linney at Microsoft's London Office on the 1st April.&amp;body=Register for the event here http://www.ipsolutions.co.uk/microsoft-lync/" title="share by email"><img src="http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solutions/images/button-refer-to-collegue.png" alt="Refer to a collegue"></a>
                                 </td>
                             </tr>
                         </table>
@@ -1013,7 +1022,7 @@ body.outlook p {
                         <table>
                             <tr>
                                 <td>
-                                    <a href="https://twitter.com/ipsolutionsuk" target="_blank"><img src="http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solutions/images/social-01.png"></a>
+                                    <a href="https://twitter.com/ipsolutionsuk" target="_blank" class="social-icon"><img src="http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solutions/images/social-01.png" width="40" height="40"></a>
                                 </td>
                             </tr>
                         </table>
@@ -1023,7 +1032,7 @@ body.outlook p {
                             <tr>
                                 <td>
 
-                                    <a href="https://www.linkedin.com/company/ip-solutions-uk-ltd" target="_blank"><img src="http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solutions/images/social-03.png" ></a>
+                                    <a href="https://www.linkedin.com/company/ip-solutions-uk-ltd" target="_blank" class="social-icon"><img src="http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solutions/images/social-03.png" width="40" height="40"></a>
                                 </td>
                             </tr>
                         </table>
