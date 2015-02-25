@@ -3,16 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="d957028c-495c-4534-985d-8733721ef984" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Font-Awesome" afterPath="$PROJECT_DIR$/Font-Awesome" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/header-what-we-talk-about.ai" afterPath="$PROJECT_DIR$/images/header-what-we-talk-about.ai" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/ipsolutions-logo.psd" afterPath="$PROJECT_DIR$/images/ipsolutions-logo.psd" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/ipsolutionslogo.jpg" afterPath="$PROJECT_DIR$/images/ipsolutionslogo.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/social-01.png" afterPath="$PROJECT_DIR$/images/social-01.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/social-02.png" afterPath="$PROJECT_DIR$/images/social-02.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/social-03.png" afterPath="$PROJECT_DIR$/images/social-03.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/email-outgoing.html" afterPath="$PROJECT_DIR$/email-outgoing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/email-thank-you.html" afterPath="$PROJECT_DIR$/email-thank-you.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/form.scss" afterPath="$PROJECT_DIR$/scss/form.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newsletter-type-a.html" afterPath="$PROJECT_DIR$/newsletter-type-a.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newsletter-type-b.html" afterPath="$PROJECT_DIR$/newsletter-type-b.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/structure.scss" afterPath="$PROJECT_DIR$/scss/structure.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template-microsoft-lync.php" afterPath="$PROJECT_DIR$/template-microsoft-lync.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thankyou.php" afterPath="$PROJECT_DIR$/thankyou.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ip-solutions.iws" />
@@ -38,41 +36,86 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="newsletter-type-a.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newsletter-type-a.html">
+      <file leaf-file-name="template-microsoft-lync.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template-microsoft-lync.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.3666666" vertical-offset="22176" max-vertical-offset="30425">
-              <caret line="883" column="12" selection-start-line="883" selection-start-column="12" selection-end-line="891" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="6200">
+              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
               <folding>
-                <element signature="n#style#0;n#img#0;n#a#0;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#center#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#2;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#center#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#td#2;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#center#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#1;n#tr#0;n#center#0;n#table#2;n#td#0;n#tr#0;n#table#0;n#center#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#center#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#7;n#td#0;n#tr#0;n#table#0;n#center#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#1;n#center#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#7;n#td#0;n#tr#0;n#table#0;n#center#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#6#43#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="newsletter-type-b.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newsletter-type-b.html">
+      <file leaf-file-name="happy.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Happy.js/happy.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="22800" max-vertical-offset="30725">
-              <caret line="912" column="0" selection-start-line="912" selection-start-column="0" selection-end-line="912" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="825">
+              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template-microsoft-lync.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/template-microsoft-lync.php">
+      <file leaf-file-name="newsletter-type-b.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/newsletter-type-b.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.80569947" vertical-offset="2128" max-vertical-offset="7300">
-              <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.15620828" vertical-offset="20883" max-vertical-offset="30925">
+              <caret line="839" column="9" selection-start-line="0" selection-start-column="0" selection-end-line="1143" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="happy.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Happy.js/happy.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1700" max-vertical-offset="3500">
+              <caret line="68" column="19" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
               <folding>
-                <element signature="e#6#43#0#PHP" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="email-thank-you.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/email-thank-you.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="26125" max-vertical-offset="27000">
+              <caret line="1045" column="44" selection-start-line="1045" selection-start-column="44" selection-end-line="1045" selection-end-column="234" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="structure.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scss/structure.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2776" max-vertical-offset="3550">
+              <caret line="126" column="31" selection-start-line="126" selection-start-column="31" selection-end-line="126" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scss/form.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="275" max-vertical-offset="1550">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scss/app.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="350" max-vertical-offset="1575">
+              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -108,7 +151,6 @@
         <option value="$PROJECT_DIR$/hubspot-form.php" />
         <option value="$PROJECT_DIR$/email-3.html" />
         <option value="$PROJECT_DIR$/scss/_settings.scss" />
-        <option value="$PROJECT_DIR$/scss/structure.scss" />
         <option value="$PROJECT_DIR$/scss/typography.scss" />
         <option value="$PROJECT_DIR$/email-4.html" />
         <option value="$PROJECT_DIR$/email-5.html" />
@@ -116,15 +158,17 @@
         <option value="$PROJECT_DIR$/email-4-alt-min.html" />
         <option value="$PROJECT_DIR$/stylesheets/app.css" />
         <option value="$PROJECT_DIR$/scss/background.scss" />
-        <option value="$PROJECT_DIR$/scss/form.scss" />
-        <option value="$PROJECT_DIR$/scss/app.scss" />
         <option value="$PROJECT_DIR$/scss/colours.scss" />
         <option value="$PROJECT_DIR$/thankyou.php" />
         <option value="$PROJECT_DIR$/email-outgoing.html" />
         <option value="$PROJECT_DIR$/email-thank-you.html" />
         <option value="$PROJECT_DIR$/newsletter-type-a.html" />
-        <option value="$PROJECT_DIR$/newsletter-type-b.html" />
+        <option value="$PROJECT_DIR$/scss/structure.scss" />
+        <option value="$PROJECT_DIR$/scss/form.scss" />
+        <option value="$PROJECT_DIR$/scss/app.scss" />
+        <option value="$PROJECT_DIR$/Happy.js/happy.config.js" />
         <option value="$PROJECT_DIR$/template-microsoft-lync.php" />
+        <option value="$PROJECT_DIR$/newsletter-type-b.html" />
       </list>
     </option>
   </component>
@@ -215,15 +259,15 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-env-vars>false</pass-parent-env-vars>
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -251,19 +295,19 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21387696" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2167382" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932693" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932693" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -294,31 +338,12 @@
           <line>4</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/template-microsoft-lync.php</url>
-          <line>5</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
       </breakpoints>
       <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scss/table.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="250">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/form.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <caret line="0" column="49" selection-start-line="0" selection-start-column="49" selection-end-line="0" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/app.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="1550">
@@ -551,13 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/structure.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8062016" vertical-offset="1826" max-vertical-offset="3500">
-          <caret line="98" column="14" selection-start-line="98" selection-start-column="14" selection-end-line="98" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/sidebar-hero.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-26.23057" vertical-offset="21675" max-vertical-offset="25525">
@@ -604,17 +622,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.59946597" vertical-offset="25501" max-vertical-offset="28025">
           <caret line="1016" column="34" selection-start-line="1016" selection-start-column="34" selection-end-line="1016" selection-end-column="34" />
-          <folding>
-            <element signature="e#3#55#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/email-thank-you.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12953368" vertical-offset="25450" max-vertical-offset="27550">
-          <caret line="1005" column="54" selection-start-line="1005" selection-start-column="54" selection-end-line="1005" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -622,7 +629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.45725387" vertical-offset="22078" max-vertical-offset="26400">
           <caret line="868" column="40" selection-start-line="868" selection-start-column="40" selection-end-line="868" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -630,22 +636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8095855" vertical-offset="25925" max-vertical-offset="31275">
           <caret line="1037" column="23" selection-start-line="1037" selection-start-column="23" selection-end-line="1037" selection-end-column="23" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#center#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#2;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#center#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#2;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#center#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#1;n#tr#0;n#table#2;n#td#0;n#tr#0;n#table#0;n#center#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#center#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#6;n#td#0;n#tr#0;n#table#0;n#center#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#center#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#6;n#td#0;n#tr#0;n#table#0;n#center#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/form.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.71243525" vertical-offset="700" max-vertical-offset="1475">
-          <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -653,48 +643,81 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="975">
           <caret line="4" column="19" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/structure.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2776" max-vertical-offset="3550">
+          <caret line="126" column="31" selection-start-line="126" selection-start-column="31" selection-end-line="126" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/form.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="275" max-vertical-offset="1550">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="700" max-vertical-offset="1575">
-          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="350" max-vertical-offset="1575">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/newsletter-type-a.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.3666666" vertical-offset="22176" max-vertical-offset="30425">
-          <caret line="883" column="12" selection-start-line="883" selection-start-column="12" selection-end-line="891" selection-end-column="20" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#center#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#2;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#center#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#2;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#center#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#1;n#tr#0;n#center#0;n#table#2;n#td#0;n#tr#0;n#table#0;n#center#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#center#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#7;n#td#0;n#tr#0;n#table#0;n#center#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#center#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#7;n#td#0;n#tr#0;n#table#0;n#center#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.5492228" vertical-offset="26026" max-vertical-offset="29675">
+          <caret line="1017" column="157" selection-start-line="0" selection-start-column="0" selection-end-line="1129" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newsletter-type-b.html">
+    <entry file="file://$PROJECT_DIR$/email-thank-you.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="22800" max-vertical-offset="30725">
-          <caret line="912" column="0" selection-start-line="912" selection-start-column="0" selection-end-line="912" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="26125" max-vertical-offset="27000">
+          <caret line="1045" column="44" selection-start-line="1045" selection-start-column="44" selection-end-line="1045" selection-end-column="234" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Happy.js/happy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1400" max-vertical-offset="3600">
+          <caret line="68" column="19" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template-microsoft-lync.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.80569947" vertical-offset="2128" max-vertical-offset="7300">
-          <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="6200">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
           <folding>
             <element signature="e#6#43#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Happy.js/happy.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="825">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newsletter-type-b.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15620828" vertical-offset="20883" max-vertical-offset="30925">
+          <caret line="839" column="9" selection-start-line="0" selection-start-column="0" selection-end-line="1143" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -7,6 +7,8 @@ input[type="text"], input[type="submit"], .button {
     margin-bottom: 0px !important;
 }
 .hs-form {
+
+}
   label {
     color: $ips-white !important;
   }
@@ -16,17 +18,18 @@ input[type="text"], input[type="submit"], .button {
     box-shadow: none !important;
     text-shadow: none !important;
     width: 60% !important;
-    height: 30px !important;
+    height: 2em !important;
     margin: 0 auto !important;
     display: block !important;
-
+    color: white !important;
+    line-height: 1.75em !important;
+    border: none !important;
     font-size: 1.5em !important;
     &:hover {
       cursor: pointer !important;
       background-color: $ips-grey !important;
     }
   }
-}
 
 .actions {
   padding-top: 0px !important;

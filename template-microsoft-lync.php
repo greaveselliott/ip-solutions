@@ -10,6 +10,7 @@ $rootDir = 'http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solut
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
     <title>IP Solutions: Microsoft Lync</title>
     <link rel="stylesheet" href="<?php echo $rootDir; ?>stylesheets/app.css" />
     <script src="<?php echo $rootDir; ?>bower_components/modernizr/modernizr.js"></script>
@@ -46,7 +47,7 @@ $rootDir = 'http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solut
             <div class="large-10 columns large-centered">
                 <!-- FORM START -->
                 <div class="row ips-background-box ips-background-blue" id="sign-up-form">
-                    <div class="row"><div class="large-12 columns"><h3 class="padding-bottom-10 h1 text-center ips-green">Register today to attend</h3></div></div>
+                    <div class="row"><div class="large-12 columns"><h3 class="padding-bottom-10 h1 text-center ips-green">Register</h3></div></div>
                     <!-- Title -->
                     <div class="large-6 columns ">
                         <h3 class="ips-white heading-line-height h2_5 padding-top-30 padding-bottom-10">Join us and Dragons' Den's Piers Linney at Microsofts London <br>Offices on the 1st April.</h3>
@@ -54,26 +55,20 @@ $rootDir = 'http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solut
                     </div>
                     <!-- Sign up -->
                     <div class="large-6 columns border-left no-border-left-small">
-<!--                        <script charset="utf-8" src="//js.hsforms.net/forms/current.js"></script>-->
-<!--                        <script>-->
-<!--                            hbspt.forms.create({-->
-<!--                                portalId: '330853',-->
-<!--                                formId: '2153ac64-29d3-4bae-84eb-c57dafd200fb'-->
-<!--                            });-->
-<!--                        </script>-->
+
                         <!--  ----------------------------------------------------------------------  -->
                         <!--  NOTE: Please add the following <META> element to your page <HEAD>.      -->
                         <!--  If necessary, please modify the charset parameter to specify the        -->
                         <!--  character set of your HTML page.                                        -->
                         <!--  ----------------------------------------------------------------------  -->
 
-                        <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+
 
                         <!--  ----------------------------------------------------------------------  -->
                         <!--  NOTE: Please add the following <FORM> element to your page.             -->
                         <!--  ----------------------------------------------------------------------  -->
 
-                        <form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+                        <form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" id="happy-form">
 
                             <input type=hidden name="oid" value="00D20000000019X">
                             <input type=hidden name="retURL" value="http://www.ipsolutions.co.uk/microsoft-lync/thankyou/">
@@ -86,15 +81,15 @@ $rootDir = 'http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solut
                             <!--  value="paul.richards@ipsolutions.co.uk">                                -->
                             <!--  ----------------------------------------------------------------------  -->
 
-                            Full Name:<input  id="00N20000009RegP" maxlength="40" name="00N20000009RegP" size="20" type="text" /><br>
+                            <label for="00N20000009RegP">Full Name:</label><input  id="00N20000009RegP" maxlength="40" name="00N20000009RegP" size="20" type="text" class="margin-bottom-0 happy-name" required/><br>
 
-                            <label for="company">Company</label><input  id="company" maxlength="40" name="company" size="20" type="text" /><br>
+                            <label for="company">Company</label><input  id="company" maxlength="40" name="company" size="20" type="text" class="margin-bottom-0 happy-company" required/><br>
 
-                            Job Title:<input  id="00N20000009RegZ" maxlength="40" name="00N20000009RegZ" size="20" type="text" /><br>
+                            <label for="00N20000009RegZ">Job Title:</label><input  id="00N20000009RegZ" maxlength="40" name="00N20000009RegZ" size="20" type="text" class="margin-bottom-0 happy-job" required/><br>
 
-                            <label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+                            <label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" class="margin-bottom-0 happy-email" required/><br>
 
-                            <input type="submit" name="submit">
+                            <input type="submit" name="submit" value="Register now" class="hs-button happy-submit">
 
                         </form>
                     </div>
@@ -191,7 +186,7 @@ $rootDir = 'http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solut
                     <div class="large-6 columns">
                         <div class="table-center-container large-min-height-320">
                             <div class="table-center-cell">
-                                <h3 class="h1 text-upper-case ips-white text-center">Sign up today to attend today</h3>
+                                <h3 class="h1 text-upper-case ips-white text-center">Register today to attend</h3>
                             </div>
                         </div>
 
@@ -200,7 +195,7 @@ $rootDir = 'http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solut
                     <div class="large-6 columns">
                         <div class="table-center-container large-min-height-320">
                             <div class="table-center-cell">
-                                <a href="#sign-up-form" class="ips-white button ips-background-green padding-60-75 h3">Sign up now</a>
+                                <a href="#sign-up-form" class="ips-white button ips-background-green padding-60-75 h3">Register now</a>
                             </div>
                         </div>
 
@@ -221,8 +216,8 @@ $rootDir = 'http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solut
                 <h3 class="text-upper-case display-inline-block hide-for-small ips-white">Connect with us</h3>
                 <nav class="display-inline-block">
                     <ul>
-                        <li class="display-inline-block"><a href="#" class="link-social-twitter ips-green h3"><i class="fa fa-twitter-square"></i></a></li>
-                        <li class="display-inline-block"><a href="#" class="link-social-linkedIn ips-green h3"><i class="fa fa-linkedin-square"></i></a></li>
+                        <li class="display-inline-block"><a href="https://twitter.com/ipsolutionsuk" target="_blank" class="social-icons"><img src="http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solutions/images/social-01.png"></a></li>
+                        <li class="display-inline-block"><a href="https://www.linkedin.com/company/ip-solutions-uk-ltd" target="_blank" class="social-icons"><img src="http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solutions/images/social-03.png"></a></li>
 <!--                        <li class="display-inline-block"><a href="#" class="link-ip-solutions ips-green"><img src="images/ipsolutionslogo.jpg"></a></li>-->
                     </ul>
                 </nav>
@@ -240,5 +235,8 @@ $rootDir = 'http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solut
     </script>
     <script src="<?php echo $rootDir; ?>js/maplace-0.1.3.js"></script>
     <script src="<?php echo $rootDir; ?>js/maplace.config.js"></script>
+    <script src="<?php echo $rootDir; ?>Happy.js/happy.js"></script>
+    <script src="<?php echo $rootDir; ?>Happy.js/happy.methods.js"></script>
+    <script src="<?php echo $rootDir; ?>Happy.js/happy.config.js"></script>
     </body>
 </html>
