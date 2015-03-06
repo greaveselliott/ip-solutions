@@ -21,7 +21,6 @@ body{
     -ms-text-size-adjust:100%;
     margin:0;
     padding:0;
-    background-color: #cccccc;
 }
 
 .ExternalClass {
@@ -776,13 +775,13 @@ body.outlook p {
         padding-top: 0px !important;
     }
     .ips_background_grey {
-        background-color: #cccccc;
+        /*background-color: #cccccc;*/
     }
     .ips_background_white {
-        background-color: white;
+        /*background-color: #ffffff;*/
     }
     .ips_background_green {
-        background-color: #d2e214;
+        /*background-color: #d2e214;*/
     }
     .border_bottom_blue {
         border-bottom: solid 3px #0078ae;
@@ -798,7 +797,7 @@ body.outlook p {
     }
     .header-box td {
         display: block;
-        width: auto !important;
+        white-space: nowrap;
         text-align: center;
         background: #2ba6cb;
         /*border: 1px solid #2284a1;*/
@@ -807,7 +806,7 @@ body.outlook p {
     }
 
     .width-100 {
-        width: 100%;
+        /*width: 100%;*/
     }
     .text-center {
         text-align: center !important;
@@ -886,7 +885,7 @@ body.outlook p {
                         <a href="http://www.ipsolutions.co.uk"><img width="585px" height="181px" src="http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solutions/images/email-header.jpg"></a>
                         <!--<a href="http://www.ipsolutions.co.uk"><img width="580px" height="180" src="http://www.placehold.it/580x180"></a>-->
                     </td>
-                    <td class="expander"></td>
+                    <!--<td class="expander"></td>-->
                 </tr>
             </table>
         </td>
@@ -901,20 +900,24 @@ body.outlook p {
             <table class="eight columns">
                 <tr>
                     <td>
-                        <img src="http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solutions/images/header-what-we-talk-about.jpg" width="230" height="35">
-
+                        <!--<img src="http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solutions/images/header-what-we-talk-about.jpg" width="230" height="35">-->
+                        <table class="header-box">
+                            <tr>
+                                <td>
+                                    What we are talking about this month
+                                </td>
+                            </tr>
+                        </table>
                     </td>
                     <td class="expander"></td>
                 </tr>
             </table>
-
         </td>
         <td class="wrapper last">
-
-            <table class="four columns last">
+            <table class="four columns">
                 <tr>
-                    <td>
-                        <table class="header-box" style="float: right !important;">
+                    <td style="float: right;">
+                        <table class="header-box">
                             <tr>
                                 <td>
                                     March 2015
@@ -928,17 +931,17 @@ body.outlook p {
         </td>
     </tr>
 </table>
-<table class="row ips_background_white">
+<table>
     <tr>
         <td class="wrapper">
             <table class="six columns">
                 <tr>
-                    <td class="panel">
-                        <img height="280" width="280" src="http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solutions/images/Edita.jpg">
+                    <td>
+                        <img height="283" width="280" src="http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solutions/images/Edita.jpg">
                     </td>
                 </tr>
                 <tr>
-                    <td class="panel">
+                    <td>
                         <p class="text-center ips_blue">Edita Simanaviciute</p>
                         <p class="text-center ips_blue">Account Manager</p>
                     </td>
@@ -966,7 +969,6 @@ body.outlook p {
     </tr>
 </table>
 <!-- END OF SECTION 1 -->
-<!--<br>-->
 <!-- SECTION 2: News - Green -->
 <table class="row ips_background_green border_top_blue border_bottom_blue">
     <tr>
@@ -999,7 +1001,7 @@ body.outlook p {
     </tr>
 </table>
 <!-- Articles: Side-by-Side -->
-<table class="row ips_background_white">
+<table>
     <tr>
         <td></td>
     </tr>
@@ -1041,13 +1043,13 @@ body.outlook p {
     </tr>
 </table>
 <!-- Articles: Advertisement -->
-<table class="row ips_background_white">
+<table>
     <tr>
         <td class="wrapper">
             <table class="six columns">
                 <tr>
                     <td>
-                        <table class="header-box width-100 margin-bottom-10">
+                        <table class="header-box margin-bottom-10">
                             <tr>
                                 <td>
                                     Cloud Data Back Up
@@ -1071,23 +1073,24 @@ body.outlook p {
             <table class="six columns">
                 <tr>
                     <td>
-                        <table class="header-box width-100">
+                        <table class="header-box">
                             <tr>
                                 <td>
-                                    Did you know...
+                                   Did you know
                                 </td>
                             </tr>
                         </table>
-                        <table class=" text-pad">
-                            <tr>
-                                <td class="panel">
-                                    <div style="width: 50%; float: left;"><img src="https://aw2.predictiveresponse.net/local/23137/images/guide.PNG" alt="" width="100%" height="auto"></div>
-                                    <div style="width: 50%; float: left;">
-                                        <p style="text-align: left;"><br>We have recently updated our Hosted VoIP Guide. &nbsp;To download your copy,&nbsp;<a href="http://www.ipsolutions.co.uk/downloads/IPS%20Hosted%20VoIP%20White%20Paper%200115.pdf?org=137&amp;lvl=100&amp;ite=1815&amp;lea=1051188&amp;ctr=0&amp;par=1">Click here</a></p>
-                                    </div>
-                                </td>
-                            </tr>
-                        </table>
+                    </td>
+                </tr>
+                <td class="expander"></td>
+            </table>
+            <table class="six columns">
+                <tr>
+                    <td class="six sub-columns">
+                                        <img src="https://aw2.predictiveresponse.net/local/23137/images/guide.PNG" alt="" width="100%" height="auto">
+                    </td>
+                    <td class="six sub-columns text-pad-left">
+                        <p>We have recently updated our Hosted VoIP Guide. &nbsp;To download your copy,&nbsp;<a href="http://www.ipsolutions.co.uk/downloads/IPS%20Hosted%20VoIP%20White%20Paper%200115.pdf">Click here</a></p>
                     </td>
                     <td class="expander"></td>
                 </tr>
