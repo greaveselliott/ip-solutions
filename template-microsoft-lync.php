@@ -13,6 +13,7 @@ $rootDir = 'http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solut
   <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
     <title>IP Solutions: Microsoft Lync</title>
     <link rel="stylesheet" href="<?php echo $rootDir; ?>stylesheets/app.css" />
+    <link rel="stylesheet" href="<?php echo $rootDir; ?>QapTcha/jquery/QapTcha.jquery.css" />
     <script src="<?php echo $rootDir; ?>bower_components/modernizr/modernizr.js"></script>
   </head>
   <body>
@@ -88,7 +89,8 @@ $rootDir = 'http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solut
                             <label for="00N20000009RegZ">Job Title:</label><input  id="00N20000009RegZ" maxlength="40" name="00N20000009RegZ" size="20" type="text" class="margin-bottom-0 happy-job" required/><br>
 
                             <label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" class="margin-bottom-0 happy-email" required/><br>
-
+                            <label>Slide to confirm you're not a robot</label>
+                            <div class="QapTcha"></div>
                             <input type="submit" name="submit" value="Register now" class="hs-button happy-submit">
 
                         </form>
@@ -228,7 +230,7 @@ $rootDir = 'http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solut
     </section>
   <script language="JavaScript" src="http://aws.predictiveresponse.net/http/trac.js"> </script>
   <script language="JavaScript"> trackPredictive(); </script>
-  <script src="<?php echo $rootDir; ?>bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="<?php echo $rootDir; ?>QapTcha/jquery/jquery.js"></script>
     <script src="<?php echo $rootDir; ?>bower_components/foundation/js/foundation.min.js"></script>
     <script src="<?php echo $rootDir; ?>js/app.js"></script>
     <script src="http://maps.google.com/maps/api/js?sensor=false&libraries=geometry&v=3.7">
@@ -238,5 +240,16 @@ $rootDir = 'http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solut
     <script src="<?php echo $rootDir; ?>Happy.js/happy.js"></script>
     <script src="<?php echo $rootDir; ?>Happy.js/happy.methods.js"></script>
     <script src="<?php echo $rootDir; ?>Happy.js/happy.config.js"></script>
+    <script src="<?php echo $rootDir; ?>QapTcha/jquery/jquery-ui.js"></script>
+    <script src="<?php echo $rootDir; ?>QapTcha/jquery/jquery.ui.touch.js"></script>
+    <script src="<?php echo $rootDir; ?>QapTcha/jquery/QapTcha.jquery.min.js"></script>
+  <script type="text/javascript">
+      // More complex call
+      $('.QapTcha').QapTcha({
+          autoSubmit : false,
+          autoRevert : true,
+          PHPfile : <?php echo $rootDir; ?>'QapTcha/php/Qaptcha.jquery.php'
+      });
+  </script>
     </body>
 </html>
