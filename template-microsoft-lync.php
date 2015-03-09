@@ -243,13 +243,15 @@ $rootDir = 'http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solut
     <script src="<?php echo $rootDir; ?>QapTcha/jquery/jquery-ui.js"></script>
     <script src="<?php echo $rootDir; ?>QapTcha/jquery/jquery.ui.touch.js"></script>
     <script src="<?php echo $rootDir; ?>QapTcha/jquery/QapTcha.jquery.min.js"></script>
-  <script type="text/javascript">
+    <script type="text/javascript">
       // More complex call
-      $('.QapTcha').QapTcha({
-          autoSubmit : false,
-          autoRevert : true,
-          PHPfile : <?php echo $rootDir; ?>'QapTcha/php/Qaptcha.jquery.php'
-      });
-  </script>
+      $('.QapTcha').QapTcha(
+        {
+          autoSubmit: false,
+          autoRevert: true,
+          PHPfile: 'http://www.ipsolutions.co.uk/wp-content/themes/grandcollege/ip-solutions/QapTcha/php/Qaptcha.jquery.php'
+        }
+      );
+    </script>
     </body>
 </html>
